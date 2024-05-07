@@ -1,0 +1,6 @@
+crewai
+exa_py
+crewai[tools]
+google-search-results
+langchain-google-community
+langchain_groq

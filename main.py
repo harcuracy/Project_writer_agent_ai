@@ -5,6 +5,8 @@ from crewai import Crew
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from google.colab import userdata
+from dotenv import load_dotenv
+load_dotenv()
 
 os.environ["GROQ_API_KEY"] = userdata.get("groq_api_key")
 os.environ["EXA_API_KEY"] = userdata.get("EXA_API_KEY")

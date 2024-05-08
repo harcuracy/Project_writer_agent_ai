@@ -8,8 +8,8 @@ from google.colab import userdata
 from dotenv import load_dotenv
 load_dotenv()
 
-os.environ["GROQ_API_KEY"] = userdata.get("groq_api_key")
-os.environ["EXA_API_KEY"] = userdata.get("EXA_API_KEY")
+#os.environ["GROQ_API_KEY"] = userdata.get("groq_api_key")
+#os.environ["EXA_API_KEY"] = userdata.get("EXA_API_KEY")
 
 Groq = ChatGroq(model_name="mixtral-8x7b-32768")
 Groq2 = ChatGroq(model_name = "llama3-70b-8192" )

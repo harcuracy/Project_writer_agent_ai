@@ -4,7 +4,7 @@ from agents import SchoolProjectAgents
 from crewai import Crew
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
-from google.colab import userdata
+#from google.colab import userdata
 from dotenv import load_dotenv
 load_dotenv()
 

@@ -8,6 +8,11 @@ CrewAI is designed to facilitate the collaboration of role-playing AI agents. In
 ## Running script
 It uses llama3 & mixtral from groq,so you should have access the groq api key and have Exa api key to run.
 
-Configure Environment: set``.env` file environment variables for GROQ_API_KEY and EXA_API_KEY
+Configure Environment: set``.env` file environment variables for *GROQ_API_KEY* and *EXA_API_KEY*
+
 Install Dependencies: Run pip install requirements.txt.
+
 Execute the Script: Run python main.py and input your idea in topic.
+
+# License
+MIT license
